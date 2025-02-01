@@ -3,9 +3,520 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Phùng Quốc Định - CV</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+    />
+    <title>Dinh Phung Quoc - BE Developer - CV</title>
 </head>
 <body>
-    <h1>This is my CV</h1>
+    <header class="header">
+        <nav class="nav nav__menu container" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">
+                        <i class="ri-home-line"></i>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">
+                        <i class="ri-user-line"></i>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class="ri-file-list-line"></i>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#experience" class="nav__link">
+                        <i class="ri-book-line"></i>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="#certificate" class="nav__link">
+                        <i class="ri-award-line"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main container">
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <section class="home" id="home">
+                    <div class="home__container section grid">
+                        <div class="home__data grid">
+
+                            <div class="home__title">
+                                <h1 class="home__name"><b class="home__firstname">DINH</b> <span class="home__lastname">PHUNG QUOC</span> </h1>
+                                <h3 class="home__profession">Backend Developer</h3>
+                            </div>
+
+                            <div class="home__social">
+                                <a href="https://m.me/PhungQuocDinh" class="social__link" target="_blank"><i class="ri-messenger-line"></i></a>
+                                <a href="" class="social__link" target="_blank"><i class="ri-mail-send-fill"></i></a>
+                                <a href="https://join.skype.com/invite/iC8ANpN3nRDa" target="_blank" class="social__link"><i class="ri-skype-fill"></i></a>
+                                <a href="https://fb.com/PhungQuocDinh" class="social__link" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="https://quocdinh.dev" class="social__link" target="_blank"><i class="ri-chrome-fill"></i></a>
+                            </div>
+                            <div class="home__social-full">
+                                <div class="section__title">Contact</div>
+                               <div class="social__content">
+                                   <div class="social__item"><i class="ri-map-pin-line"></i> Tan Binh, Ho Chi Minh</div>
+                                   <a href="https://join.skype.com/invite/iC8ANpN3nRDa" target="_blank" class="social__item"><i class="ri-skype-fill"></i> pqd1997vn</a>
+                                   <a href="mailto:pqd1997@gmail.com" target="_blank" class="social__item"><i class="ri-mail-send-fill"></i> pqd1997@gmail.com</a>
+                                   <a href="https://fb.com/PhungQuocDinh" target="_blank" class="social__item"><i class="ri-facebook-circle-fill"></i> fb.com/phungquocdinh</a>
+                               </div>
+                            </div>
+                            <div><a href="#" class="home__button-download" id="resume-download"><i class="ri-download-cloud-line"></i>  Download CV <br> <span class="download__info">updated at: 23 December 2024</span></a></div>
+                        </div>
+                        <div class="home__avatar">
+                            <img src="./assets/image/profile_picture.jpg" alt="Avatar" class="home__img">
+                        </div>
+                    </div>
+
+                    <i class="ri-moon-line change-theme change-theme-mobile" title="Theme" id="theme-button"></i>
+                </section>
+
+                <section class="about" id="about">
+                    <h2 class="section__title">Experience and Qualifications</h2>
+                    <ul class="about__content">
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> <b>Java Backend Developer</b> with more than <b>5 years</b> of experience</li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> Strong expertise in <b>Java & Spring Framework, Caching (Redis) and Messaging(RabbitMQ, Kafka)</b></li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> Knowledge of <b>cloud platforms (Azure)</b></li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> Experience with <b>Microservices and Distributed System</b></li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> Experience with <b>containerization platform (Docker) and Kubernetes</b></li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> Ability to integrate <b>AI tools (ChatGPT, Gemini, etc.)</b> into workflows</li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> Ability to work under <b>high pressure and responsibility</b></li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> <b>Continuous learner</b>, willing to adopt new technologies</li>
+                        <li class="about__item"><i class="ri-check-fill about__icon"></i> <b>Good English communication </b> and technical writing skills</li>
+                    </ul>
+                </section>
+
+                <section class="section skills skills__mobile" id="skills">
+                    <h2 class="section__title">Skills</h2>
+                    <div class="skills__content">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <img src="./assets/image/java.svg" alt="Java" class="skill__img">Java
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/spring-boot.svg" alt="Spring" class="skill__img">Spring
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/database.svg" alt="Database" class="skill__img">Database
+                            </li>
+
+                            <li class="skills__name">
+                                <img src="./assets/image/azure.svg" alt="Azure" class="skill__img">Azure
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/aws.svg" alt="AWS" class="skill__img">AWS
+                            </li>
+
+                            <li class="skills__name">
+                                <img src="./assets/image/redis.svg" alt="Redis" class="skill__img">Redis
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/rabbitmq.svg" alt="RabbitMq" class="skill__img">RabbitMq
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/kafka.svg" alt="Kafka" class="skill__img">Kafka
+                            </li>
+
+                            <li class="skills__name">
+                                <img src="./assets/image/docker.svg" alt="Docker" class="skill__img">Docker
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/kubernetes.svg" alt="K8s" class="skill__img">K8s
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="experience section" id="experience">
+                    <h2 class="section__title">Work History</h2>
+
+                    <div class="experience__container grid">
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__round"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data grid">
+                                <div class="experience__text">
+                                    <h3 class="experience__title"><i class="ri-building-4-line"></i> Home Credit Global (EIT)</h3>
+                                    <span class="experience__company">Oct 2021 – Present</span>
+                                </div>
+                                <h3 class="experience__title">BE Developer</h3>
+                                <p class="experience__description">Working with teams in the Czech Republic and teams in IN, ID, VN, PH to build a digital banking application for HomeCredit</p>
+                                <div class="experience__tech">
+                                    <h3 class="experience__title">Technical</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Java, Spring, Webflux</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Azure, Microservice</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>DB: CosmosDb, SqlServer, Oracel</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Java, Spring, Webflux</li>
+                                    </ul>
+                                </div>
+                                <div class="experience__repository">
+                                    <h3 class="experience__title">Repository</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Analyze requirement business team and estimate time to complete or MVP</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Discuss and come up with solutions to develop features</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Design systems for assigned features and deploy them on the cloud environment</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Developing main features and solve the technical in backend side</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Maintenance, bug fixing and unit testing</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Build charts and statistics to monitor system operations</li>
+                                    </ul>
+                                </div>
+                                <div class="break__line_2"></div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__round"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data grid">
+                                <div class="experience__text">
+                                    <h3 class="experience__title"><i class="ri-building-4-line"></i> Nashtech Global</h3>
+                                    <span class="experience__company">Aug 2020 – Oct 2021</span>
+                                </div>
+                                <h3 class="experience__title">Java Backend Developer</h3>
+                                <p class="experience__description">Working with foreign teams to develop projects for private banking such as: ITAU, HSBC, UBS, MUFG</p>
+                                <div class="experience__tech">
+                                    <h3 class="experience__title">Technical</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Java core, OSGI bundle</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Apache Jackrabbit</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>IBM queue, Liberty and Virgo server</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>DB: Oracle, Bb2, Postgresql</li>
+                                    </ul>
+                                </div>
+                                <div class="experience__repository">
+                                    <h3 class="experience__title">Repository</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Analyze requirement from customer and estimate time</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Developing and maintaining new backend functionalities</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Developing main features and solve the technical in backend side.</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Maintenance, bug fixing and unit testing.</li>
+                                    </ul>
+                                </div>
+                                <div class="break__line_2"></div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__round"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data grid">
+                                <div class="experience__text">
+                                    <h3 class="experience__title"><i class="ri-building-4-line"></i> Bstar Solutions</h3>
+                                    <span class="experience__company">May 2019 – Aug 2020</span>
+                                </div>
+                                <h3 class="experience__title">BE Developer</h3>
+                                <p class="experience__description">Join the Thai team to develop projects for Thai banks such as: Kline, LMS </p>
+                                <div class="experience__tech">
+                                    <h3 class="experience__title">Technical</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Java, Spring framework, Hibernate, JPA</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Docker</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Microservice, Spring cloud</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Reddit, ActiveMQ</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>WebRTC</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>ReactJs, React hooks, redux saga, webpack</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Fibo Services, Amazon S3</li>
+                                    </ul>
+                                </div>
+                                <div class="experience__repository">
+                                    <h3 class="experience__title">Repository</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Analyze requirement from customer</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Developing and maintaining new backend functionalities</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Developing main features and solve the technical in backend side.</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Maintenance, bug fixing and unit testing, Do unit test</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Convert design to web and integrate API to front end functions</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Documenting API design</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Maintenance and bug fixing</li>
+                                    </ul>
+                                </div>
+                                <div class="break__line_2"></div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__round"></span>
+                            </div>
+                            <div class="experience__data grid">
+                                <div class="experience__text">
+                                    <h3 class="experience__title"><i class="ri-building-4-line"></i> Be Solutions</h3>
+                                    <span class="experience__company">June 2018 - September 2018</span>
+                                </div>
+                                <h3 class="experience__title">Internship</h3>
+                                <p class="experience__description">Build online sale website with Yii Framework. Backend sides are using PHP with MySQL</p>
+                                <div class="experience__tech">
+                                    <h3 class="experience__title">Technical</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>PHP, HTML, CSS, JS</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Google maps API, MySQL</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Management tools: Openproject, Git</li>
+                                    </ul>
+                                </div>
+                                <div class="experience__repository">
+                                    <h3 class="experience__title">Repository</h3>
+                                    <ul class="experience__detail">
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Convert design to web with HTML, CSS, JS</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Developing some features</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Do unit testing</li>
+                                        <li class="experience__item"><i class="ri-arrow-right-s-fill"></i>Maintenance and bug fixing</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section certificate certificate__mobile" id="certificate">
+                    <h2 class="section__title">Certificate</h2>
+                    <div class="certificate__container grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://learn.microsoft.com/api/credentials/share/en-us/DinhPhungQuoc97/36F015EC7BCA418A?sharingId=94FC69807EBA6903">Azure Fundamental</a></h3>
+                            <p class="certificate__description">Credential ID: 36F015EC7BCA418A</p>
+                            <p class="certificate__description">Issued: January 2024</p>
+                            <div class="certificate__view">
+                                <a href="https://learn.microsoft.com/api/credentials/share/en-us/DinhPhungQuoc97/36F015EC7BCA418A?sharingId=94FC69807EBA6903" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="#">AWS</a></h3>
+                            <p class="certificate__description">Credential ID: (to be updated)</p>
+                            <p class="certificate__description">Issued: (to be updated)</p>
+                            <div class="certificate__view">
+                                <a href="#" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://www.udemy.com/certificate/UC-5c57f956-b2ac-4496-808e-57d692f6aa73/">Master Spring Boot Microservices with CQRS & Event Sourcing</a></h3>
+                            <div class="certificate__view">
+                                <a href="https://www.udemy.com/certificate/UC-5c57f956-b2ac-4496-808e-57d692f6aa73/" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://www.udemy.com/certificate/UC-e27c33bf-5b0a-4146-ba2d-c0036e217142/">Microservices: Clean Architecture, DDD, SAGA, Outbox & Kafka</a></h3>
+                            <div class="certificate__view">
+                                <a href="https://www.udemy.com/certificate/UC-e27c33bf-5b0a-4146-ba2d-c0036e217142/" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://www.udemy.com/certificate/UC-a384a25c-86ba-4de4-91cf-e6752f7649a8/">Reactive Microservices with Spring Webflux</a></h3>
+                            <div class="certificate__view">
+                                <a href="https://www.udemy.com/certificate/UC-a384a25c-86ba-4de4-91cf-e6752f7649a8/" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="interests section interests__mobile" id="interests-mobile">
+                    <h2 class="section__title">Interests</h2>
+
+                    <div class="interests__container grid">
+                        <div class="interests__content">
+                            <i class="ri-headphone-fill"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-plane-fill"></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-run-line"></i>
+                            <span class="interests__name">Run</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-map-2-line"></i>
+                            <span class="interests__name">Hiking and Trekking</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-terminal-box-line"></i>
+                            <span class="interests__name">Coding</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-book-read-fill"></i>
+                            <span class="interests__name">Reading</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="resume__right">
+                <i class="ri-moon-line change-theme change-theme-desktop" id="theme-button-desktop"></i>
+
+                <section class="profile section" id="profile">
+                    <h2 class="section__title">Profile</h2>
+                    <div class="profile__content">
+                        <div class="profile__data">
+                            <div class="profile__label">
+                                <p>Name:</p>
+                                <p>Birthday:</p>
+                                <p>Relationship:</p>
+                                <p>National:</p>
+                                <p>Language:</p>
+                            </div>
+
+                            <div class="profile__value">
+                                <p>Phùng Quốc Định</p>
+                                <p>03 Aug, 1997</p>
+                                <p>Single</p>
+                                <p>Viet Nam</p>
+                                <p>Vietnamese, English</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break__line"></div>
+                </section>
+
+                <section class="education section" id="education">
+                    <h2 class="section__title">Education</h2>
+                    <div class="education__content">
+                        <div class="education__title">Bachelor Degree of Information Technology</div>
+                        <div class="school__name">Tra Vinh University</div>
+                        <div class="school__time">2015 - 2019</div>
+                    </div>
+                    <div class="break__line"></div>
+                </section>
+
+                <section class="skills skills__desktop section" id="skills-desktop">
+                    <h2 class="section__title">Skills</h2>
+                    <div class="skills__content">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <img src="./assets/image/java.svg" alt="Java" class="skill__img">Java
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/spring-boot.svg" alt="Spring" class="skill__img">Spring
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/database.svg" alt="Database" class="skill__img">Database
+                            </li>
+
+                            <li class="skills__name">
+                                <img src="./assets/image/azure.svg" alt="Azure" class="skill__img">Azure
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/aws.svg" alt="AWS" class="skill__img">AWS
+                            </li>
+
+                            <li class="skills__name">
+                                <img src="./assets/image/redis.svg" alt="Redis" class="skill__img">Redis
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/rabbitmq.svg" alt="RebbitMq" class="skill__img">RebbitMq
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/kafka.svg" alt="Kafka" class="skill__img">Kafka
+                            </li>
+
+                            <li class="skills__name">
+                                <img src="./assets/image/docker.svg" alt="Docker" class="skill__img">Docker
+                            </li>
+                            <li class="skills__name">
+                                <img src="./assets/image/kubernetes.svg" alt="K8s" class="skill__img">K8s
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="break__line"></div>
+                </section>
+
+                <section class="section certificate certificate__desktop" id="certificate-">
+                    <h2 class="section__title">Certificate</h2>
+                    <div class="certificate__container grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://learn.microsoft.com/api/credentials/share/en-us/DinhPhungQuoc97/36F015EC7BCA418A?sharingId=94FC69807EBA6903">Azure Fundamental</a></h3>
+                            <p class="certificate__description">Credential ID: 36F015EC7BCA418A</p>
+                            <p class="certificate__description">Issued: January 2024</p>
+                            <div class="certificate__view">
+                                <a href="https://learn.microsoft.com/api/credentials/share/en-us/DinhPhungQuoc97/36F015EC7BCA418A?sharingId=94FC69807EBA6903" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="#">AWS</a></h3>
+                            <p class="certificate__description">Credential ID: (to be updated)</p>
+                            <p class="certificate__description">Issued: (to be updated)</p>
+                            <div class="certificate__view">
+                                <a href="#" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://www.udemy.com/certificate/UC-5c57f956-b2ac-4496-808e-57d692f6aa73/">Master Spring Boot Microservices with CQRS & Event Sourcing</a></h3>
+                            <div class="certificate__view">
+                                <a href="https://www.udemy.com/certificate/UC-5c57f956-b2ac-4496-808e-57d692f6aa73/" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://www.udemy.com/certificate/UC-e27c33bf-5b0a-4146-ba2d-c0036e217142/">Microservices: Clean Architecture, DDD, SAGA, Outbox & Kafka</a></h3>
+                            <div class="certificate__view">
+                                <a href="https://www.udemy.com/certificate/UC-e27c33bf-5b0a-4146-ba2d-c0036e217142/" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title"><i class="ri-arrow-drop-right-fill"></i><a href="https://www.udemy.com/certificate/UC-a384a25c-86ba-4de4-91cf-e6752f7649a8/">Reactive Microservices with Spring Webflux</a></h3>
+                            <div class="certificate__view">
+                                <a href="https://www.udemy.com/certificate/UC-a384a25c-86ba-4de4-91cf-e6752f7649a8/" class="certificate__link">Show credential <i class="ri-external-link-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="break__line"></div>
+                </section>
+
+                <section class="interests section interests__desktop" id="interests-desktop">
+                    <h2 class="section__title">Interests</h2>
+
+                    <div class="interests__container grid">
+                        <div class="interests__content">
+                            <i class="ri-headphone-fill"></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-plane-fill"></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-run-line"></i>
+                            <span class="interests__name">Run</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-map-2-line"></i>
+                            <span class="interests__name">Hiking and Trekking</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-terminal-box-line"></i>
+                            <span class="interests__name">Coding</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class="ri-book-read-fill"></i>
+                            <span class="interests__name">Reading</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <a href="#" class="scroll__top" id="scroll-top">
+        <i class="ri-arrow-up-line scroll__top-icon"></i>
+    </a>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/html2pdf.bundle.min.js"></script>
 </body>
 </html>
